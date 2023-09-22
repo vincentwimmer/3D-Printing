@@ -8,7 +8,6 @@ M107 ; Disable all fans
 G28 ; Autohome
 M420 S ; Turn bed leveling back on
 G29 P3 ; Autolevel for a 3x3 matrix
-G28 ; Autohome after autolevel
 M190 S{material_bed_temperature_layer_0} ; Set bed temp and wait
 M109 S{material_print_temperature_layer_0} T0 ; Set nozzle temp and wait
 G92 E0

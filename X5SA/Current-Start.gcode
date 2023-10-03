@@ -8,7 +8,7 @@ G28 ; Autohome
 M420 S ; Turn bed leveling back on
 G29 P3 ; Autolevel for a 3x3 matrix
 G1 X165 Y165 ; Move nozzle to Center
-G92 Z16 ; Set Z Offset
+G92 Z15.9 ; Set Z Offset
 G0 Z0 ; 0 The Z axis
 G0 Z5 ; Raise the Z axis to avoid bed
 G0 X0 Y0 ; Return Home without running Home
